@@ -19,8 +19,7 @@
 Development Status (November 2024)
 --------------------------------------
 After a long break in releases of 3.8 beta test candidates, development is resuming, though not at the
-pace of past releases. That said, we hope to have a new 3.8 beta ready before the end of the year and
-a final release in Q1 2025.
+pace of past releases.
 
 One impediment we have yet to overcome is code signing for the Windows platform. Currently we have
 no means of doing so as our previous key has expired. The difficulty is both cost and the need for
