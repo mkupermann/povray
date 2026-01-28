@@ -760,7 +760,8 @@ if test x"$enable_optimiz" != x"no"; then
       elif test x"$ax_cv_prog_cxx_flags_O2" = x"yes"; then  # -O2 was set
         AX_TEST_COMPILER_FLAGS([-finline-functions])
       fi
-      AX_TEST_COMPILER_FLAGS([-ffast-math])
+      # Disabled -ffast-math: causes 0% ray intersection on ARM64 Mac
+      # AX_TEST_COMPILER_FLAGS([-ffast-math])
       ;;
 
     intel)

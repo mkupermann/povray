@@ -133,6 +133,8 @@ typedef POV_UINT16  uFWord;
 
 #if !defined(TARGET_OS_MAC)
 typedef int Fixed;
+#else
+typedef int Fixed;
 #endif
 
 using GlyphIndex = POV_UINT32;
